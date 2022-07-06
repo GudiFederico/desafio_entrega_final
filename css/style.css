@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"); /* barra de navegacion bootstrap modificada*/
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+}
+
+.nav-item {
+  padding-left: 20px;
+}
+
+.nav-link {
+  color: rgb(205, 253, 11);
+  border-radius: 40%;
+  transition: all 1s ease;
+  font-weight: 100;
+}
+
+.nav-link:hover {
+  color: black;
+  background-color: rgb(205, 253, 11);
+}
+
+nav img {
+  height: 35px;
+}
+
+.custom-toggler {
+  border-color: rgb(205, 253, 11);
+}
+
+@media screen and (max-width: 640px) {
+  .nav-link:hover {
+    color: white;
+    background-color: transparent;
+  }
+  .navbar {
+    background-color: rgb(0, 0, 0);
+  }
+}
+/*seccion carrusel de imagenes modificada con bootstrap*/
+.carrusel_img {
+  margin-top: 0px;
+}
+
+.carru {
+  position: relative;
+  width: 100%;
+}
+
+.carru_text {
+  position: absolute;
+  z-index: 1;
+  padding-top: 100px;
+}
+
+.carru_text h2 {
+  color: white;
+  font-size: 70px;
+  width: 50%;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.boton_carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 30px;
+  border-color: rgb(205, 253, 11);
+  color: rgb(205, 253, 11);
+  margin: 20px 15%;
+}
+
+.boton_carrusel a {
+  text-decoration: none;
+  color: rgb(205, 253, 11);
+}
+
+.boton_carrusel:hover {
+  background-color: rgb(205, 253, 11);
+}
+
+.boton_carrusel:hover a {
+  color: black;
+}
+
+@media screen and (max-width: 640px) {
+  .carrusel_img {
+    margin-top: 65px;
+  }
+  .carru h2 {
+    font-size: 30px;
+  }
+  .carru_text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0;
+  }
+}
+/* seccion de promos*/
+.promos {
+  padding-top: 65px;
+}
+
+.promos h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.promos h3 {
+  text-align: center;
+  color: rgb(205, 253, 11);
+  padding: 30px;
+}
+
+.card {
+  margin: 5px;
+}
+
+.card img {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-body {
+  text-align: center;
+}
+
+/*seccion clases*/
+.clases {
+  padding-top: 65px;
+  text-align: center;
+}
+
+.cards_wraper {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  width: 1fr;
+  border-color: rgb(205, 253, 11);
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+@media screen and (max-width: 640px) {
+  .tarjeta:not(:first-child) {
+    display: none;
+  }
+}
+/*seccion de sedes*/
+.sedes {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sedes h2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.local {
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.sedes iframe {
+  height: 300px;
+  width: 400px;
+}
+
+/*seccion nosotros*/
+.nosotros {
+  padding-top: 60px;
+  width: 100%;
+}
+
+.nosotros h2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.nosotros img {
+  height: 200px;
+  margin: 30px;
+}
+
+.nosotros h3 {
+  padding: 30px;
+}
+
+.nosotros iframe {
+  margin-bottom: 40px;
+}
+
+.somos {
+  text-align: center;
+  padding: 40px;
+}
+
+@media screen and (max-width: 640px) {
+  .nosotros iframe {
+    max-width: 400px;
+  }
+}
+/* contacto*/
+.formu {
+  padding: 30px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*seccion footer*/
+footer {
+  height: 20px;
+}
+
+footer img {
+  height: 30px;
+}
+
+footer hr {
+  color: rgb(205, 253, 11);
+  height: 8px;
+}
+
+.foot-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.foot-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

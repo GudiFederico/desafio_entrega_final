@@ -1,0 +1,48 @@
+@import './fonts';
+@import './variables';
+
+
+
+@import './components/header';
+@import './components/carrusel';
+@import './components/promos';
+@import './components/clases';
+@import './components/nosotros';
+@import './components/contacto';
+
+body {
+    font-family: $main-font;
+}
+
+
+
+/*seccion footer*/
+
+footer {
+    height: 20px;
+
+}
+
+footer img {
+    height: 30px;
+}
+
+footer hr {
+    color: rgb(205, 253, 11);
+    height: 8px;
+}
+
+.foot-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.foot-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
