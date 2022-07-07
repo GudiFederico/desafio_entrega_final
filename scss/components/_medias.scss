@@ -1,0 +1,53 @@
+@media  screen and (max-width:640px) {
+    .nav-link:hover {
+        color: white;
+        background-color: transparent;
+    }
+    .navbar {
+        background-color: $sec-color;}
+    
+}
+
+
+
+@media  screen and (max-width:640px) {
+
+    .carrusel_img {
+        margin-top: 65px;
+
+        .carousel {
+
+            .carru {
+
+                .carru_text {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    padding-top: 0;
+            
+                    .texto {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+
+        
+
+    }
+      
+}
+
+
+@media screen and (max-width:640px) {
+    .tarjeta:not(:first-child) {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:640px) {
+    .nosotros iframe {
+        max-width: 400px;
+    }
+}

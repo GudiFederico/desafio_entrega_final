@@ -2,68 +2,54 @@
 
 .carrusel_img {
     margin-top: 0px;
-}
+
+    .carru {
+        position: relative;
+        width: 100%;
+
+        .carru_text {
+            position: absolute;
+            z-index: 1;
+            padding-top: 100px;
+
+            .texto {
+                color: white;
+                font-size: 70px;
+                width: 50%;
+                padding-left: 10%;
+                padding-top: 5%;
+            }
+
+            .boton_carrusel {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: auto;
+                height: 30px;
+                border-color: rgb(205, 253, 11);
+                color: rgb(205, 253, 11);
+                margin: 20px 15%;
+
+                a {
+                    text-decoration: none;
+                    color:rgb(205, 253, 11);
+
+                   
+                }
+
+                &:hover {
+                    background-color: $main-color;
+                    a {
+                    color: black;
+                    }
+
+                }
+            }
 
 
-
-.carru {
-    position: relative;
-    width: 100%;
-}
-
-.carru_text {
-    position: absolute;
-    z-index: 1;
-    padding-top: 100px;
-    
-}
-.carru_text h2 {
-    color: white;
-    font-size: 70px;
-    width: 50%;
-    padding-left: 10%;
-    padding-top: 5%;
-
-}
-
-.boton_carrusel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 30px;
-    border-color: rgb(205, 253, 11);
-    color: rgb(205, 253, 11);
-    margin: 20px 15%;
-}
-
-.boton_carrusel a {
-    text-decoration: none;
-    color:rgb(205, 253, 11);
-}
-
-.boton_carrusel:hover {
-    background-color: rgb(205, 253, 11);
-    
-}
-
-.boton_carrusel:hover a {
-    color: black;
-}
-
-@media  screen and (max-width:640px) {
-
-    .carrusel_img {
-        margin-top: 65px;
+            
+        }
     }
-    .carru h2 {
-        font-size:30px;
-    }
-    .carru_text {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 0;
-    }
-    
 }
+
+

@@ -2,63 +2,43 @@
 
 .promos {
     padding-top: 65px;
-}
 
-.promos h2 {
-    text-align: center;
-    padding-bottom: 20px;
-}
+    h2 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
 
-.promos h3 {
-    text-align: center;
-    color: rgb(205, 253, 11);
-    padding: 30px;
-}
+    .card{
+        margin: 5px;
 
-.card {
-    margin: 5px;
-}
+        .img {
+            padding: 20px;
+            font-weight: bold;
+        }  
 
-.card img {
-    padding: 20px;
-    font-weight: bold;
-}
-.card-title {
-    font-weight: bold;
-}
+        .card-body {
+            text-align: center;   
 
-.card-body {
-    text-align: center;   
-}
+            .card-title {
+                font-weight: bold;
+            }
+        }
+        
+        
+    }
 
-
-/*seccion clases*/
-
-
-.clases {
-    padding-top: 65px;
-    text-align: center;
-}
-
-.cards_wraper {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    
-}
-.card {
-    width: 1fr;
-    border-color: rgb(205, 253, 11);
-    transition: all 0.5s ease;
-}
-
-.card:hover {
-    transform: scale(1.1);
-    z-index: 2;
-}
-
-@media screen and (max-width:640px) {
-    .tarjeta:not(:first-child) {
-        display: none;
+    h3 {
+        text-align: center;
+        color: $main-color;
+        padding: 30px;
     }
 }
+
+
+
+
+
+
+
+
+
