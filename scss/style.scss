@@ -1,6 +1,8 @@
 @import './fonts';
 @import './variables';
 @import './components/medias';
+@import './base/extends';
+
 
 
 
@@ -35,15 +37,11 @@ footer hr {
 }
 
 .foot-text {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    @extend %foot-text;
 }
 
 .foot-icons {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    @extend %foot-icons;
 }
 
 

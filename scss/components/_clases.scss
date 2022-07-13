@@ -6,8 +6,7 @@
     text-align: center;
 
     h2 {
-        text-align: center;
-        padding-bottom: 20px;
+        @extend %titulos;
     }
 
     .cards_wraper {

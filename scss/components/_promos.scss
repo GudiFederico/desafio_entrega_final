@@ -4,8 +4,7 @@
     padding-top: 65px;
 
     h2 {
-        text-align: center;
-        padding-bottom: 20px;
+        @extend %titulos;
     }
 
     .card{

@@ -2,4 +2,9 @@
 
 .formu {
     padding: 30px;
+
+    h2 {
+        @extend %titulos;
+    }
 }
+
