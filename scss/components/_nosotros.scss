@@ -1,7 +1,8 @@
 /*seccion nosotros*/
 
 .nosotros {
-    @include seccion (65px, center);
+    padding: auto;
+    text-align: center;
 
     h2 {
         text-align: center;
@@ -22,7 +23,7 @@
     }
 
     iframe {
-        margin-bottom: 40px;
+        margin: 40px auto;
     }
 
     .somos { 

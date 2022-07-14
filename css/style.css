@@ -10,7 +10,7 @@
 }
 @media screen and (max-width: 640px) {
   .carrusel_img {
-    margin-top: 65px;
+    padding-top: 60px;
   }
   .carrusel_img .carousel .carru .carru_text {
     display: flex;
@@ -25,6 +25,11 @@
 @media screen and (max-width: 640px) {
   .tarjeta:not(:first-child) {
     display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .sedes iframe {
+    max-width: 350px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -179,7 +184,7 @@
 
 /*seccion nosotros*/
 .nosotros {
-  padding: 65px;
+  padding: auto;
   text-align: center;
 }
 .nosotros h2 {
@@ -198,7 +203,7 @@
   padding: 30px;
 }
 .nosotros iframe {
-  margin-bottom: 40px;
+  margin: 40px auto;
 }
 .nosotros .somos {
   text-align: center;

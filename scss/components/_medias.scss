@@ -10,10 +10,10 @@
 
 
 
-@media  screen and (max-width:640px) {
+@media screen and (max-width:640px) {
 
     .carrusel_img {
-        margin-top: 65px;
+        padding-top: 60px;
 
         .carousel {
 
@@ -45,9 +45,16 @@
     }
 }
 
+@media screen and (max-width:640px) {
+    .sedes iframe {
+        max-width: 350px;
+    }
+}
+
 
 @media screen and (max-width:640px) {
     .nosotros iframe {
         max-width: 400px;
     }
+ 
 }
