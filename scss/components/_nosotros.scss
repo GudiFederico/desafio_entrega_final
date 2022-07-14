@@ -1,8 +1,7 @@
 /*seccion nosotros*/
 
 .nosotros {
-    padding-top: 60px;
-    width: 100%;
+    @include seccion (65px, center);
 
     h2 {
         text-align: center;
@@ -17,7 +16,9 @@
     }
 
     h3 {
-        padding: 30px;
+        text-align: map-get($subtitulos, subt-align);
+        color: map-get($subtitulos, subt-color);
+        padding: map-get($subtitulos, subt-pdng);
     }
 
     iframe {

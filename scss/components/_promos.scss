@@ -1,7 +1,7 @@
 /* seccion de promos*/
 
 .promos {
-    padding-top: 65px;
+    @include seccion (65px, center);
 
     h2 {
         @extend %titulos;
@@ -22,14 +22,12 @@
                 font-weight: bold;
             }
         }
-        
-        
     }
 
     h3 {
-        text-align: center;
-        color: $main-color;
-        padding: 30px;
+        text-align: map-get($subtitulos, subt-align);
+        color: map-get($subtitulos, subt-color);
+        padding: map-get($subtitulos, subt-pdng);
     }
 }
 

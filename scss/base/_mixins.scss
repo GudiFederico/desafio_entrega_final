@@ -1,0 +1,11 @@
+@mixin card-hover ($aumentar, $acercar) {
+    transform: $aumentar;
+    z-index: $acercar;
+    
+}
+
+@mixin seccion ($stcn-padd, $sctn-align) {
+    padding: $stcn-padd;
+    text-align: $sctn-align;
+
+}

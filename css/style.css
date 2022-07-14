@@ -32,6 +32,23 @@
     max-width: 400px;
   }
 }
+.formu h2, .sedes h2, .clases h2, .promos h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.foot-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.foot-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 /* barra de navegacion bootstrap modificada*/
 .navbar {
   background-color: rgba(0, 0, 0, 0.7);
@@ -74,7 +91,7 @@
   padding-top: 100px;
 }
 .carrusel_img .carru .carru_text .texto {
-  color: white;
+  color: rgb(205, 253, 11);
   font-size: 70px;
   width: 50%;
   padding-left: 10%;
@@ -98,16 +115,13 @@
   background-color: rgb(205, 253, 11);
 }
 .carrusel_img .carru .carru_text .boton_carrusel:hover a {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 /* seccion de promos*/
 .promos {
-  padding-top: 65px;
-}
-.promos h2 {
+  padding: 65px;
   text-align: center;
-  padding-bottom: 20px;
 }
 .promos .card {
   margin: 5px;
@@ -130,12 +144,8 @@
 
 /*seccion clases*/
 .clases {
-  padding-top: 65px;
+  padding: 65px;
   text-align: center;
-}
-.clases h2 {
-  text-align: center;
-  padding-bottom: 20px;
 }
 .clases .cards_wraper {
   display: flex;
@@ -155,13 +165,11 @@
 
 /*seccion de sedes*/
 .sedes {
-  padding-top: 60px;
+  padding: 65px;
   text-align: center;
 }
 .sedes h2 {
-  text-align: center;
-  font-size: 30px;
-  padding: 20px 0px;
+  padding-top: 20px;
   width: 100%;
 }
 .sedes iframe {
@@ -171,8 +179,8 @@
 
 /*seccion nosotros*/
 .nosotros {
-  padding-top: 60px;
-  width: 100%;
+  padding: 65px;
+  text-align: center;
 }
 .nosotros h2 {
   text-align: center;
@@ -185,6 +193,8 @@
   margin: 20px;
 }
 .nosotros h3 {
+  text-align: center;
+  color: rgb(205, 253, 11);
   padding: 30px;
 }
 .nosotros iframe {
@@ -199,7 +209,6 @@
 .formu {
   padding: 30px;
 }
-
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -216,18 +225,6 @@ footer img {
 footer hr {
   color: rgb(205, 253, 11);
   height: 8px;
-}
-
-.foot-text {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.foot-icons {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

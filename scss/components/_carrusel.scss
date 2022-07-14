@@ -13,7 +13,7 @@
             padding-top: 100px;
 
             .texto {
-                color: white;
+                color: $main-color;
                 font-size: 70px;
                 width: 50%;
                 padding-left: 10%;
@@ -26,13 +26,13 @@
                 align-items: center;
                 width: auto;
                 height: 30px;
-                border-color: rgb(205, 253, 11);
-                color: rgb(205, 253, 11);
+                border-color: $main-color;
+                color: $main-color;
                 margin: 20px 15%;
 
                 a {
                     text-decoration: none;
-                    color:rgb(205, 253, 11);
+                    color:$main-color;
 
                    
                 }
@@ -40,7 +40,7 @@
                 &:hover {
                     background-color: $main-color;
                     a {
-                    color: black;
+                    color: $sec-color;
                     }
 
                 }
