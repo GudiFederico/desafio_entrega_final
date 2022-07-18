@@ -29,10 +29,56 @@
         color: map-get($subtitulos, subt-color);
         padding: map-get($subtitulos, subt-pdng);
     }
+   
 }
 
 
+.clase-prueba {
+    height: 350px;
 
+    .logo-big {
+        height: 400px;
+        display: flex;
+        background-color: $sec-color;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/multimedia/img/mancuerna-01.jpg);
+
+        & img {
+            height: 300px;
+        }
+    }
+
+    .clase-gratis {
+        background-color: $main-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        h3 {
+            color: $sec-color;
+            font-weight: bold;
+            width: 80%;
+            text-align: center;
+        }
+        
+        .inscrip {
+            width: 35%;
+            height: 10%;
+            border-radius: 20px;
+            background-color: transparent;
+            
+
+            a {
+                color: $sec-color;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: smaller;
+            }
+        }
+    }
+}
 
 
 

@@ -147,6 +147,46 @@
   padding: 30px;
 }
 
+.clase-prueba {
+  height: 350px;
+}
+.clase-prueba .logo-big {
+  height: 400px;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  background-image: url(/multimedia/img/mancuerna-01.jpg);
+}
+.clase-prueba .logo-big img {
+  height: 300px;
+}
+.clase-prueba .clase-gratis {
+  background-color: rgb(205, 253, 11);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.clase-prueba .clase-gratis h3 {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  width: 80%;
+  text-align: center;
+}
+.clase-prueba .clase-gratis .inscrip {
+  width: 35%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.clase-prueba .clase-gratis .inscrip a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: smaller;
+}
+
 /*seccion clases*/
 .clases {
   padding: 65px;
@@ -215,7 +255,7 @@
   padding: 30px;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 /*seccion footer*/
