@@ -2,6 +2,7 @@
 
 .promos {
     @include seccion (65px, center);
+    padding-bottom: 50px;
 
     h2 {
         @extend %titulos;
@@ -35,6 +36,7 @@
 
 .clase-prueba {
     height: 350px;
+    margin-bottom: 60px;
 
     .logo-big {
         height: 400px;

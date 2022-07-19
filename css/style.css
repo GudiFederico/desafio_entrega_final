@@ -42,18 +42,6 @@
   padding-bottom: 20px;
 }
 
-.foot-text {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.foot-icons {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
 /* barra de navegacion bootstrap modificada*/
 .navbar {
   background-color: rgba(0, 0, 0, 0.7);
@@ -97,10 +85,9 @@
 }
 .carrusel_img .carru .carru_text .texto {
   color: rgb(205, 253, 11);
-  font-size: 70px;
-  width: 50%;
-  padding-left: 10%;
-  padding-top: 5%;
+  font-size: 75px;
+  width: 60%;
+  padding-left: 15%;
 }
 .carrusel_img .carru .carru_text .boton_carrusel {
   display: flex;
@@ -127,6 +114,7 @@
 .promos {
   padding: 65px;
   text-align: center;
+  padding-bottom: 50px;
 }
 .promos .card {
   margin: 5px;
@@ -149,6 +137,7 @@
 
 .clase-prueba {
   height: 350px;
+  margin-bottom: 60px;
 }
 .clase-prueba .logo-big {
   height: 400px;
@@ -191,11 +180,16 @@
 .clases {
   padding: 65px;
   text-align: center;
+  padding-bottom: 30px;
 }
 .clases .cards_wraper {
   display: flex;
   justify-content: space-around;
   padding: 20px;
+}
+.clases h3 {
+  color: rgb(205, 253, 11);
+  padding-top: 30px;
 }
 
 .card {
@@ -221,10 +215,28 @@
   height: 300px;
   width: 400px;
 }
+.sedes .mb-3 .card-body .card-text {
+  padding: 30px;
+  text-align: left;
+}
+.sedes .noti {
+  height: 100%;
+  pointer-events: none;
+}
+.sedes .noti .card-body {
+  height: 100%;
+}
+.sedes .noti .card-body .card-title {
+  padding: 0px 20px;
+}
+.sedes .noti .card-body .card-text {
+  padding: 15px 20px;
+  text-align: left;
+}
 
 /*seccion nosotros*/
 .nosotros {
-  padding: auto;
+  padding-top: 65px;
   text-align: center;
 }
 .nosotros h2 {
@@ -233,21 +245,52 @@
   padding: 10px 0px;
   width: 100%;
 }
-.nosotros img {
-  height: 200px;
-  margin: 20px;
+.nosotros .clase-prueba {
+  margin: 30px auto;
 }
-.nosotros h3 {
-  text-align: center;
+.nosotros .clase-prueba .logo-big {
+  background-image: url(/multimedia/img/instalaciones-01.jpg);
+}
+.nosotros .clase-prueba .logo-big h3 {
   color: rgb(205, 253, 11);
+  font-size: 85px;
+  text-align: left;
   padding: 30px;
+  font-weight: 300;
 }
-.nosotros iframe {
-  margin: 40px auto;
+.nosotros .clase-prueba .clase-gratis {
+  display: flex;
+  justify-content: center;
+}
+.nosotros .clase-prueba .clase-gratis h3 {
+  font-size: xx-large;
+}
+.nosotros .clase-prueba .clase-gratis p {
+  padding: 35px;
 }
 .nosotros .somos {
-  text-align: center;
+  margin: 30px auto;
+}
+.nosotros .somos iframe {
   padding: 40px;
+  height: 315px;
+}
+.nosotros .valores {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.nosotros .valores .valores-item {
+  border: 1px solid rgb(205, 253, 11);
+  width: 1fr;
+  height: auto;
+}
+.nosotros .valores .valores-item h4 {
+  padding: 10px;
+}
+.nosotros .valores .valores-item p {
+  text-align: left;
 }
 
 /* contacto*/
@@ -260,16 +303,21 @@ body {
 
 /*seccion footer*/
 footer {
-  height: 20px;
+  height: 200px;
+  background-color: rgb(205, 253, 11);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
-footer img {
-  height: 30px;
+footer .footy {
+  display: flex;
+  justify-content: space-around;
 }
-
-footer hr {
-  color: rgb(205, 253, 11);
-  height: 8px;
+footer .footy .foot ul {
+  list-style: none;
+}
+footer .footy .foot-logo img {
+  height: 120px;
 }
 
 /*# sourceMappingURL=style.css.map */

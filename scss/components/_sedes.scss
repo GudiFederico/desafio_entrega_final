@@ -13,4 +13,35 @@
         height: 300px;
         width: 400px;
     }
+
+    .mb-3{
+        .card-body {
+            .card-text {
+                padding: 30px;
+                text-align: left;
+            }
+        }
+    }
+
+    .noti {
+        height: 100%;
+        pointer-events: none;
+
+        .card-body {
+            height: 100%;
+
+            .card-title {
+                padding: 0px 20px;
+                &:hover {
+                }
+            }
+
+            .card-text {
+                padding: 15px 20px;
+                text-align: left;
+            }
+        }
+    }
+
+   
 }

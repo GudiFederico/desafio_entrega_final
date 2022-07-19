@@ -26,26 +26,37 @@ body {
 /*seccion footer*/
 
 footer {
-    height: 20px;
+    height: 200px;
+    background-color: $main-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    .footy {
+        display:flex;
+        justify-content: space-around;
+
+        .foot {
+            ul{
+            list-style: none;
+            }
+        }
+
+        .foot-logo {
+            img {
+            height: 120px;
+            }
+        }
+    }
+
+    
 }
 
-footer img {
-    height: 30px;
-}
 
-footer hr {
-    color: rgb(205, 253, 11);
-    height: 8px;
-}
 
-.foot-text {
-    @extend %foot-text;
-}
 
-.foot-icons {
-    @extend %foot-icons;
-}
+
+
 
 
 

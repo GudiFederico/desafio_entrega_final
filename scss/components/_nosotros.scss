@@ -1,7 +1,7 @@
 /*seccion nosotros*/
 
 .nosotros {
-    padding: auto;
+    padding-top: 65px;
     text-align: center;
 
     h2 {
@@ -11,23 +11,62 @@
         width: 100%;
     }
 
-    img {
-        height: 200px;
-        margin: 20px;
+    .clase-prueba {
+        margin: 30px auto;
+
+        .logo-big{
+            background-image: url(/multimedia/img/instalaciones-01.jpg);
+
+            h3 {
+                color: $main-color;
+                font-size: 85px;
+                text-align: left;
+                padding: 30px;
+                font-weight: 300;
+
+            }
+        }
+
+        .clase-gratis {
+            display: flex;
+            justify-content: center;
+
+            h3 {
+                font-size: xx-large;
+            }
+
+            p {
+                padding: 35px;
+            }
+        }
     }
 
-    h3 {
-        text-align: map-get($subtitulos, subt-align);
-        color: map-get($subtitulos, subt-color);
-        padding: map-get($subtitulos, subt-pdng);
+    .somos {
+        margin: 30px auto;
+        iframe {
+            padding: 40px;
+            height: 315px;
+        }
     }
 
-    iframe {
-        margin: 40px auto;
-    }
-
-    .somos { 
-        text-align: center;
+    .valores {
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
         padding: 40px;
+
+        .valores-item {
+            border: 1px solid $main-color;
+            width: 1fr;
+            height: auto;
+
+            h4 {
+                padding: 10px;
+            }
+
+            p {
+                text-align: left;
+            }
+        }
     }
 }

@@ -3,6 +3,7 @@
 
 .clases {
     @include seccion (65px, center);
+    padding-bottom: 30px;
 
     h2 {
         @extend %titulos;
@@ -13,6 +14,11 @@
         justify-content: space-around;
         padding: 20px;
         
+    }
+
+    h3 {
+        color: $main-color;
+        padding-top: 30px;
     }
 }
 
