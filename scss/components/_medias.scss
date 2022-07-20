@@ -32,11 +32,33 @@
             }
         }
 
-        
-
-    }
+     }
       
 }
+
+
+@media screen and (max-width:640px) {
+    #clase-prueba {
+        width: 100vw;
+        margin-bottom: 10px;
+        height: auto;
+
+        #logo-big {
+            height: 350px;
+        
+        }
+
+        .clase-gratis {
+            height: 200px;
+
+            .inscrip {
+                height: auto;
+            }
+        }
+    }
+}
+
+
 
 
 @media screen and (max-width:640px) {
@@ -48,11 +70,36 @@
 @media screen and (max-width:640px) {
     .sedes iframe {
         max-width: 350px;
+
+        .noti {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .sedes iframe {
+        max-width: 300px;
+
+        .noti {
+            width: 100%;
+        }
     }
 }
 
 
 @media screen and (max-width:640px) {
+
+    .nosotros {
+        .clase-prueba {
+            width: 100vw;
+            margin-bottom: 10px;
+            height: auto;
+        }
+    }
+
+
+    
     .nosotros iframe {
         max-width: 400px;
     }

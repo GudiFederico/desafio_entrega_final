@@ -23,6 +23,22 @@
   }
 }
 @media screen and (max-width: 640px) {
+  #clase-prueba {
+    width: 100vw;
+    margin-bottom: 10px;
+    height: auto;
+  }
+  #clase-prueba #logo-big {
+    height: 350px;
+  }
+  #clase-prueba .clase-gratis {
+    height: 200px;
+  }
+  #clase-prueba .clase-gratis .inscrip {
+    height: auto;
+  }
+}
+@media screen and (max-width: 640px) {
   .tarjeta:not(:first-child) {
     display: none;
   }
@@ -31,8 +47,24 @@
   .sedes iframe {
     max-width: 350px;
   }
+  .sedes iframe .noti {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .sedes iframe {
+    max-width: 300px;
+  }
+  .sedes iframe .noti {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 640px) {
+  .nosotros .clase-prueba {
+    width: 100vw;
+    margin-bottom: 10px;
+    height: auto;
+  }
   .nosotros iframe {
     max-width: 400px;
   }
@@ -315,6 +347,10 @@ footer .footy {
 }
 footer .footy .foot ul {
   list-style: none;
+}
+footer .footy .foot ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 footer .footy .foot-logo img {
   height: 120px;
