@@ -58,7 +58,11 @@
     }
 }
 
-
+@media screen and (max-width:640px) {
+    .merch {
+       display: block;
+    }
+}
 
 
 @media screen and (max-width:640px) {
